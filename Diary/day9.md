@@ -1,0 +1,5 @@
+### 2024-07-23: Task 9 - Setting Up the Frontend with React.js and Next.js
+
+On Day 9, I focused on setting up the frontend of the project using React.js and Next.js. React.js was chosen for its ability to build dynamic and interactive user interfaces, while Next.js offered a powerful framework for server-side rendering and static site generation. I began by initializing the Next.js project and configuring the necessary dependencies for React components. The project structure was organized with separate folders for components, pages, and styles to ensure maintainability and scalability as the project grows.
+
+I then worked on creating the initial pages and components needed for the website, including a basic layout with a header and footer. Next.js allowed for easy routing between pages and automatic code splitting for better performance. I also implemented global state management using React’s Context API, ensuring that data could be shared across different components. By the end of the day, the frontend was set up and ready to handle dynamic content, with a solid foundation for future development.

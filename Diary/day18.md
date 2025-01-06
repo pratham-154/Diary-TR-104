@@ -1,0 +1,5 @@
+### 2024-08-05: Task 18 - Creating Shopping Cart Feature
+
+On Day 18, I began working on the shopping cart feature, a critical component for any e-commerce website. The cart would allow users to add, remove, and update product quantities before proceeding to checkout. I started by creating a React component to represent the cart. This component needed to display the products added to the cart, showing product names, images, quantities, and total prices. I used React’s state management to track the items in the cart, ensuring that the cart was updated whenever users added or removed items.
+
+I then created functions for adding and removing products, as well as a function to update product quantities. This logic was tied to buttons on the cart UI that allowed users to modify their selections easily. Additionally, I implemented the logic to calculate the total price of the cart by multiplying product prices by their quantities. By the end of the day, the shopping cart feature was up and running, allowing users to manage their selections in real time.

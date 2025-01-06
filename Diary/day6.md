@@ -1,0 +1,5 @@
+### 2024-07-18: Task 6 - Creating User Authentication APIs
+
+On Day 6, I focused on creating user authentication APIs for the project. The first step involved setting up user registration and login routes in the Express.js server. I implemented password hashing using the `bcryptjs` library to ensure that sensitive information was stored securely in the database. For the registration API, I validated user input, including email and password, before storing it in the database. The login API was designed to verify user credentials and return a JSON Web Token (JWT) if authentication was successful.
+
+To enhance security, I configured JWT-based authentication for protected routes. After the user logs in, the token is generated and sent to the client, which then includes it in the authorization header for subsequent requests. This approach ensures that only authenticated users can access sensitive endpoints. By the end of the day, the user authentication system was successfully implemented, providing a secure foundation for handling user interactions within the application.

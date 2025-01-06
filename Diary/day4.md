@@ -1,0 +1,5 @@
+### 2024-07-16: Task 4 - Setting up the Project Structure
+
+On the fourth day, I focused on establishing a scalable and organized project structure, a critical step for ensuring maintainability and efficiency throughout development. The backend was set up using Node.js and Express.js, with a modular folder structure to separate concerns. Key directories, such as `routes`, `controllers`, `models`, and `middlewares`, were created to manage application logic, database interactions, and request handling efficiently. For the frontend, Next.js was initialized with a clean structure comprising pages, components, and styles folders, ensuring a clear separation of concerns.
+
+Configuration files like `package.json`, `.env`, and `eslint` were added to manage dependencies, environment variables, and coding standards. Additionally, I integrated Git for version control and created the initial repository, enabling smooth collaboration and change tracking. By the end of the day, the project had a well-defined foundation, ready to accommodate feature development with ease and scalability.

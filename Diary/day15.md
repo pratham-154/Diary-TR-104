@@ -1,0 +1,5 @@
+### 2024-07-31: Task 15 - Designing Individual Product Page
+
+Day 15 was dedicated to designing the individual product page, where users could view detailed information about a product. This page included sections for the product description, price, specifications, and customer reviews. I created a React component to display this information, which was fetched from the backend using the product details API. I also implemented a photo gallery for the product, allowing users to view multiple images in a carousel.
+
+In addition to the product details, I designed a section for adding the product to the cart, including quantity selection and an "Add to Cart" button. To improve the user experience, I ensured the page was well-organized and easy to navigate, with a clear layout and visually appealing design. By the end of the day, the individual product page was complete, providing users with all the necessary information to make an informed purchase decision.

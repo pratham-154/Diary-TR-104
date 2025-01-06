@@ -1,0 +1,5 @@
+### 2024-07-17: Task 5 - Initializing Backend with Node.js and Express.js
+
+The fifth day was dedicated to setting up the backend of the project using Node.js and Express.js. I began by initializing the Node.js environment with `npm init`, creating a `package.json` file to manage dependencies. Express.js was installed to handle HTTP requests efficiently, and a basic server was created to verify that the setup was functional. Essential middleware, such as `body-parser` for parsing request payloads and `cors` for handling cross-origin requests, was integrated to streamline backend operations.
+
+To structure the backend effectively, I implemented a modular approach, setting up initial folders for routes, controllers, and middleware. A health check route was added as a starting point to ensure the server responded correctly to client requests. This foundational work laid the groundwork for developing robust and scalable APIs in the upcoming tasks. By the end of the day, the backend was primed for integration with the database and other essential features.

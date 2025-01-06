@@ -1,0 +1,5 @@
+### 2024-07-26: Task 12 - Fetching Product Listings on Frontend
+
+Day 12 was focused on fetching product listings from the backend and displaying them on the frontend. Using React.js, I created a component responsible for making HTTP requests to the product listing API. I used Axios, a popular HTTP client, to send GET requests to the backend and retrieve the product data. Once the data was received, I stored it in the React component state and passed it to child components for rendering.
+
+I also implemented loading indicators to enhance user experience while data was being fetched, ensuring that users would see a loading spinner or message while waiting for the products to load. After successfully fetching the data, I formatted the products and displayed them in a grid layout on the homepage, including product images, names, and prices. By the end of the day, the frontend was dynamically fetching and displaying product listings, with a smooth user interface.

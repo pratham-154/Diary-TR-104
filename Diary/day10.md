@@ -1,0 +1,5 @@
+### 2024-07-24: Task 10 - Designing Homepage Layout
+
+Day 10 was dedicated to designing the homepage layout, ensuring that it provided a user-friendly experience and visually aligned with the overall design goals. The homepage was structured with several key sections, including a hero banner, featured products, and product categories. I used React components to break down the layout into manageable, reusable parts. Styling was handled using CSS modules, allowing for scoped styles specific to each component, which helped prevent styling conflicts and ensured a clean, modular design.
+
+In addition to static design, I made sure the layout was responsive, ensuring that it would adjust seamlessly across various screen sizes, from mobile to desktop. Media queries were employed to adjust the layout and ensure elements remained visually appealing on different devices. By the end of the day, the homepage had a clear, intuitive design that was both functional and aesthetically pleasing, setting the stage for future work on the site’s interactivity and product listings.

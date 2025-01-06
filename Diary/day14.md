@@ -1,0 +1,5 @@
+### 2024-07-30: Task 14 - Adding Product Filtering Features
+
+On Day 14, I implemented product filtering features to allow users to refine their product search based on different criteria. I added filtering options such as price range, categories, and ratings. These filters were displayed as checkboxes and sliders on the sidebar, and users could select multiple filters simultaneously to narrow down their results. When a user selected a filter, the frontend updated the product listing by sending an updated request to the API with the selected filter parameters.
+
+To handle the filtering logic on the backend, I updated the product listing API to accept query parameters for filtering. This required modifying the database queries to filter products based on the selected criteria. I also ensured that the filters were easily reset, allowing users to clear all selected filters with a single click. By the end of the day, the product filtering features were fully integrated, providing users with an efficient way to browse products based on their preferences.

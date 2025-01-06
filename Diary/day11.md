@@ -1,0 +1,5 @@
+### 2024-07-25: Task 11 - Developing Product Listing API
+
+On Day 11, I worked on developing the API for listing products on the website. This involved creating endpoints to fetch product data from the MongoDB database and return it to the frontend. The first step was defining the necessary product schema in MongoDB, which included details like product name, description, price, and images. I then created a RESTful API with Express.js to handle requests for fetching all products, filtering them by categories, and sorting them based on different criteria like price or popularity.
+
+To ensure the API was efficient, I implemented pagination and query parameters, allowing the frontend to request a specific number of products per page. I also included error handling for edge cases, ensuring that the API would return meaningful error messages when something went wrong. By the end of the day, the product listing API was fully functional, allowing the frontend to display a dynamic set of products based on user preferences.

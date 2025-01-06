@@ -1,0 +1,5 @@
+### 2024-07-19: Task 7 - Integrating MongoDB Database
+
+On Day 7, I focused on integrating MongoDB into the project. The first step involved setting up a MongoDB database using Mongoose, an ODM (Object Data Modeling) library for MongoDB and Node.js. I established a connection between the Express.js backend and the MongoDB database using the `mongoose.connect()` method, ensuring proper error handling and connection stability. After connecting to the database, I created models for user data, products, and other necessary entities, which allowed for easy interaction with the database using Mongoose’s built-in methods.
+
+I then worked on implementing CRUD (Create, Read, Update, Delete) operations for storing and retrieving data. I utilized Mongoose schemas to structure the data and added validations to ensure data integrity. This task involved testing the database integration by inserting new records and retrieving them using various queries. By the end of the day, MongoDB was successfully integrated into the project, enabling data storage and management for the application.

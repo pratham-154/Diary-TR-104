@@ -1,0 +1,5 @@
+### 2024-07-29: Task 13 - Implementing Search Functionality
+
+On Day 13, I focused on implementing the search functionality for the website, allowing users to search for products by name or description. This involved creating a search bar component on the homepage and linking it to the product listing API. When a user typed a query into the search bar, the frontend sent a request to the backend with the search term as a query parameter. The backend then filtered products based on the search term and returned matching results.
+
+To enhance the search experience, I implemented debouncing, which delayed the API request until the user stopped typing for a brief moment. This helped reduce the number of requests sent to the server, improving performance. I also ensured that the results were displayed in real-time as the user typed, providing instant feedback. By the end of the day, the search functionality was fully operational, allowing users to quickly find the products they were looking for.

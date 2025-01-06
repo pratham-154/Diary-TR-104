@@ -1,0 +1,5 @@
+### 2024-07-22: Task 8 - Implementing JWT Authentication
+
+On Day 8, I implemented JSON Web Token (JWT) authentication for secure user access and sessions. JWT is a compact, URL-safe means of representing claims between two parties. I started by installing the necessary libraries, including `jsonwebtoken`, and configuring the backend to issue tokens upon successful login. This involved creating an authentication middleware to validate the tokens sent by users with each request. I then ensured that all protected routes were secured by this middleware, allowing only authenticated users to access sensitive data or perform certain actions.
+
+The process also required managing token expiration and refreshing. I created logic to refresh tokens before they expired and ensured that users could log in again seamlessly if their token expired. This setup was vital for ensuring security and a smooth user experience. By the end of the day, the JWT authentication mechanism was fully integrated into the project, enabling secure and authenticated sessions for users.

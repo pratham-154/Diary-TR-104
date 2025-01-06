@@ -1,0 +1,5 @@
+### 2024-08-02: Task 17 - Integrating Product Details API on Frontend
+
+On Day 17, I focused on integrating the product details API on the frontend. Using React.js, I created a component to display the individual product details page, fetching data from the backend API. When a user clicked on a product from the product listing page, the frontend would make a GET request to the product details API with the product ID. The data returned from the API was then used to populate the product details page, including the product name, price, description, and images.
+
+I also added features such as a zoom-in functionality for product images and a related products section to suggest similar items to the user. To ensure a smooth user experience, I implemented loading indicators to show while the data was being fetched. By the end of the day, the product details API was successfully integrated on the frontend, providing users with an interactive and informative product page.
